@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microbiology Made Easy</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/dlsu logo2.png"></a>
+            <div class="nav-links"id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>    
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="modules.html">MODULES</a></li>
+                    <li><a href="blog.html">REVIEWERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Reviewers</h1>
+    </section>
+    
+
+<!-- Blog Content -->
+<section class="reviewers">
+    <div class="reviewer-card">
+        <img src="images/mcrobio.png" alt="MICROBIOLOGY">
+        <h3>Microbiology</h3>
+        <p>This subject focuses on basic and foundational knowledge about microbiology. The reason that it is difficult is that its scope is wide and there are a lot of new things to learn</p>
+        <a href="https://drive.google.com/drive/folders/1K-xZYCsD9Op30pFQ1ghlOq8qZdole-eb?usp=sharing">View</a>
+    </div>
+
+    <div class="reviewer-card">
+        <img src="images/cellmol.png" alt="CELL AND MOLECULAR BIOLOGY">
+        <h3>Cell and Molecular Biology</h3>
+        <p>This subject is similar to microbiology but it focuses more on eukaryotes. If genetics and microbiology had an offspring, it will be cell and molecular biology</p>
+        <a href="https://drive.google.com/drive/folders/1l6iDRfhP1JDvZgO9JCQ3WcghUQz7R0_r?usp=sharing">View</a>
+    </div>
+
+    <div class="reviewer-card">
+        <img src="images/mdmicro.png" alt="MEDICAL MICROBIOLOGY">
+        <h3>Medical Microbiology</h3>
+        <p>Despite that this subject may seem intimidating, it is easier compared to microbiology due to the fact the scope of medical microbiology is much more specific</p>
+        <a href="https://drive.google.com/drive/u/0/folders/17Vy-W-4fv1BZo2J6Fx314NgiRKeCv-_n">View</a>
+    </div>
+    
+</section><section class="cla">
+    <h1> Look Out For The Latest Blogs and Modules <br> For Microbiology Students In DLSU</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+
+
+
+ </section>
+<!-- JavaScript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("nav-links");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>

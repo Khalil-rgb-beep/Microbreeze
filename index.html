@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microbiology Made Easy</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/dlsu logo2.png"></a>
+            <div class="nav-links"id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>    
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="modules.html">MODULES</a></li>
+                    <li><a href="blog.html">REVIEWERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+     <div class="text-box">
+            <h1>Microbreeze</h1>
+            <p>Learning MCROBIO in DLSU is just a breeze.</p>
+            <a href="modules.html" class="hero-btn">Get Started</a>
+        </div>
+    </section>
+    
+<!-- Course -->
+ <section class="course">
+        <h1>Course Overview</h1>
+        <p>Microbiology is the study of microorganisms, which are tiny living organisms that can not be be seen with the naked eye. This website will cover the basics of microbiology, which are but not limited to the structure found in microbes, their taxonomy, and the difference between gram-positive and gram-negative bacterias.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>What is a Eubacteria?</h3>
+                <p>Eubacteria, also known as true bacterias represent prokaryotes 
+                    with a rigid cell wall, flagella for motility, and other metabolic 
+                    process needed, as stated in the article from CD Genomics. Furthermore, true bacterias have cell walls composed of peptidoglycan while archaeabacteria do not</p>
+            </div>
+            <div class="course-col">
+                <h3>Gram-positive vs. Gram-negative</h3>
+                <p> The difference between gram-positive and gram-negative bacterias lies in their structure and composition of their cell wall. Hence, by knowing these characteristics one can easily distinguish them from one another</p>
+            </div><div class="course-col">
+                <h3>Identification of the bacteria</h3>
+                <p>In this very moment, several biochemical tests exist to differentiate different species of from another. However, in my opinion, the most important would be the Gram stain, the laboratory used to distinguish gram-positive and gram-negative bacterias by taking note of the characteristics of their cell wall</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Microbiology Lab Apparatus -->
+<section class="lab">
+    <h1> Microbiology Lab Apparatus</h1>
+    <p> There are lab apparatus in the microbiology that help us prepare culture media, isolate, and inoculate microorganisms</p>
+<div class="row">
+    <div class="lab-col">
+        <img src="images/microscope.png">
+        <div class="layer">
+            <h3>MICROSCOPE</h3>
+        </div>
+    </div> 
+     <div class="lab-col">
+        <img src="images/erlenmeyer-flask3.png">
+        <div class="layer">
+            <h3>ERLENMEYER FLASK</h3>
+        </div>
+    </div> 
+     <div class="lab-col">
+        <img src="images/petri-dish1.png">
+        <div class="layer">
+            <h3>PETRI DISH</h3>
+        </div>
+    </div> 
+</div>
+<div class="row">
+    <div class="lab-col">
+        <img src="images/inoculating-loop2.png">
+        <div class="layer">
+            <h3>INOCULATING LOOP</h3>
+        </div>
+    </div> 
+     <div class="lab-col">
+        <img src="images/test-tube.png">
+        <div class="layer">
+            <h3>TEST TUBE</h3>
+        </div>
+    </div> 
+     <div class="lab-col">
+        <img src="images/alcohol-lamp.png">
+        <div class="layer">
+            <h3>ALCOHOL LAMP</h3>
+        </div>
+    </div> 
+</div>
+</section>
+
+<!-- branches -->
+<section class="branches">
+    <h1> Branches of Microbiology </h1>
+    <p>There are different branches under microbiology, each branch of microbiology focuses on one particular microorganism such as bacteria, fungi, virus, protozoans, etc.</p>
+ <div class="row">
+    <div class="branches-col">
+        <img src="images/bacteriology.png">
+        <h3>Bacteriology</h3>
+        <p>As stated by Britannica. it is a branch under microbiology that focuses on the study of bacteria. Furthermore, there are a plethora of specializations under bacteriology such as agricultural, clinical, industrial, and systematic bacteriology</p>
+    </div>
+       <div class="branches-col">
+        <img src="images/mycology.png">
+        <h3>Mycology</h3>
+        <p>Mycology is a branch under microbiology that deals with the study of fungi. They are eukaryotic organisms that mainly reproduce either through sexual or asexually. Moreover, they have a great impact in our day-to-day lives, in  accordance with Zaragoza, 2017.</p>
+    </div>
+       <div class="branches-col">
+        <img src="images/virology1.png">
+        <h3>Virology</h3>
+        <p>According to Mestrovic (n.d.), virology is a branch under microbiology that dwells in the study of viruses and virus-like agents' taxonomy, disease-producing properties, cultivation, and genetics</p>
+    </div>
+</section>
+
+
+<!-- Call to Action -->
+<section class="cla">
+    <h1> Look Out For The Latest Blogs and Modules <br> For Microbiology Students In DLSU</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+
+<!-- JavaScript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("nav-links");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }   
+</script>
+
+
+
+</body>
+</html>

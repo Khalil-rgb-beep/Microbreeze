@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microbiology Made Easy</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/dlsu logo2.png"></a>
+            <div class="nav-links"id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>    
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="modules.html">MODULES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact</h1>
+    </section>
+    
+
+<!-- Contact Content -->
+<section class="contact-info">
+    <img src="images/contact-pic.jpg" alt="Our Office">
+    <div class="contact-details">
+        <h2>You can connect with me through...</h2>
+        <p><i class="fa-solid fa-phone"></i> +63 991 238 0816</p>
+        <p><i class="fa-solid fa-envelope"></i> emmanuel_deguzman@dlsu.edu.ph</p>
+        <p><i class="fa-solid fa-location-dot"></i> De La Salle University, Manila, Philippines</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="Footer">
+    <h4>Disclaimer</h4>
+    <img src="images/REFERENCES.png" alt="Disclaimer Image">
+    <p>It is to be noted that I am not a computer science student. <br> Hence, I utilize the help of youtube tutorials and A.I. such <br> as ChatGPT in order to help with the layout of the website. <br> Rest assured that all contents are made with quality and <br> cited properly, you can scan the QR for the references</p>
+<div class="icons">
+</div>
+</section>
+
+<!-- JavaScript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("nav-links");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
